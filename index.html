@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+ 
+    <head>
+        <title>Mon rpg
+        </title>
+        <link rel="stylesheet" href="rpg.css">
+    </head>
+
+
+    <body>
+        
+        <div id="game"> <!--creation d'une div pour le "jeu"-->
+
+                <div id="heroEtEnnemi">
+                    <div class="ennemi"> <!--création de la classe enemi-->
+                        
+                        <div id="ennemi1">   <!--création enemi 1-->
+                            <img src="image_rpg/archon/archon0.png"
+                            >
+                            <div id="hpEnnemi1">hp:100</div>
+                        </div>
+
+                        <div id="ennemi2">   <!--création enemi 2-->
+                            <img src="image_rpg/Monk_Idle.png"
+                            >
+                            <div id="hpEnnemi2">hp:100</div>
+                        </div>
+
+                        <div id="ennemi3">   <!--création enemi 3-->
+                            <img src="image_rpg/PIGUARD.png"
+                            >
+                            <div id="hpEnnemi2">hp:100</div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="hero">  <!--création de la classe héro-->
+
+                        <div id="hero1">    <!--création du héro 1-->
+                            <img src="image_rpg/__Boxer2_Idle_009.png"
+                            >
+                            <div id="hpHero1">hp:100</div>
+                        </div>
+
+                        <div id="hero2">    <!--création du héro 2-->
+                            <img src="image_rpg/__Bunny1_Idle_006.png"
+                            >
+                            <div id="hpHero2">hp:100</div>
+                        </div>
+
+                        <div id="hero3">    <!--création du héro 3-->
+                            <img src="image_rpg/__TRAINEE_Idle_011.png"
+                            >
+                            <div id="hpHero3">hp:100</div>
+                        </div>
+
+                        <div id="hero4">    <!--création du héro 4 -->
+                            <img src="image_rpg/characters.png"
+                            >
+                            <div id="hpHero4">hp:100</div>
+                        </div>
+                </div>
+
+           
+        </div>
+         <div id="boxOfGame">
+
+            <div id="boxHero">
+                <div>
+                    
+                    <button id="attack" onclick = "tourDeJeu()">
+                        Attack
+                    </button> <br><br>
+                    <button id="defence" onclick = "tourDeJeu()">
+                        Defence
+                    </button> <br><br>
+                    <button id="special" onclick = "tourDeJeu()">
+                        Special
+                    </button> <br><br>
+                    
+                </div>
+
+            </div>
+
+            <div id="boiteDeDialogue">  <!--création de la boite de dialogue-->
+                
+                La boite de dialogue
+                
+    
+            </div>  
+        </div>
+       
+    </body>
+</html>
